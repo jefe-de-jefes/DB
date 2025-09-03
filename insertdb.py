@@ -450,7 +450,7 @@ class Inventario:
 def main():
     try:
         conn = mysql.connector.connect(
-            host='192.168.0.15',
+            host='10.100.225.186',
             port=3306,
             user=input('Introduzca su usuario> '),
             password=input('Introduzca la contraseña> '),
